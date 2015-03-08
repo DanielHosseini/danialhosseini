@@ -1,0 +1,102 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
+
+body {
+ background-color: #161616;
+    
+}
+#headerbox{
+    height: 700px;
+    background: url('img/jungle.jpg') ;
+    background-size:cover;
+    background-color: #101010;
+    }
+
+#welcome{
+    clear: both;
+    position: relative;
+    text-align: center;
+    top: 40%;
+    font-size: 2.5em;
+    }
+hr {
+    border: 0;
+    width: 90px !important;
+    height: 0;
+    border-top: 1px solid #000 !important;
+    border-bottom: 1px solid #000 !important;
+}
+h1{
+    font-family: 'montserrat';
+    letter-spacing: 6px!important;
+    font-size: 26px!important;
+    color: #FFF!important;
+    padding-top: 0px !important;
+    font-weight: 800px;   
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+h2{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: #515151 !important;
+}
+
+
+/* SOCIAL ICONS */
+#social-box{
+    float: right;
+    margin: 20px 20px;
+
+}
+#social-box a{
+    color: #FFF;
+}
+
+#social-box li {
+	display: inline;
+}
+
+.fa-facebook {
+	padding:10px 14px 7px 14px;
+ -webkit-transition:.5s;
+ transition: .5s;
+}
+
+.fa-facebook:hover {
+	background-color: #3d5b99;
+}
+
+.fa-instagram {
+	padding:10px 14px 7px 14px;
+ -webkit-transition:.5s;
+ transition: .5s;
+}
+
+.fa-instagram:hover {
+	background-color:#8a500e;
+}
+
+.fa-github {
+	padding:10px 12px 7px 12px;
+ -webkit-transition:.5s;
+ transition: .5s;
+}
+
+.fa-github:hover {
+	background-color: #00aced;
+}
+
+.fa-reddit {
+	padding:10px 12px 7px 11px;
+ -webkit-transition:.5s;
+ transition: .5s;
+}
+
+.fa-reddit:hover {
+	background-color: #e64a41;
+}
+/* SOCIAL ICONS END */
+
